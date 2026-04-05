@@ -1,2 +1,13 @@
 # Factory-Data-IIoT-Project-Apr-2026
-Building a modern Data Warehosue for factory Machine data with SQL Server including ETL process, data modelling, and anlytics and Dashboarding and KPI monitoring
+
+## Project Requirements:
+
+### Building a DataWarehouse for Factory Machine Data Setup (DATA Engineering)
+Objective :   Building a modern Data Warehosue for Factory Machine data with SQL Server including ETL process, data modelling, anlytics, Dashboarding and KPI monitoring. 
+
+#### Specifications :
+- **Data Sources** : Import Data from the Data sources from the source file provided in the specified folder.
+- **Data Quality** : Clean the data and resolve the data quality issues prior to anlysis.
+- **Data Integration** : Combine the data from the various sources to a single user friendly data model designed for analytical and ML purposes.
+- **Scope**: No Histroization required. Only consider the latest data available.
+- **Documnentation** : Maintain clear documentation of the data model for ready reference for the Business stake holders and the Analytical team.

@@ -1,4 +1,4 @@
-###Facts 
+### Facts 
 - Event Based
 - Measure Heavy
 - Answers Questions like : How much / When / Who etc.
@@ -6,7 +6,7 @@
 - Continuously growing every moment.
 eg : machine downtime / production count / temperature readings etc.
 
-###Dimensions 
+### Dimensions 
 - Conveys Description - The Context
 - Usually Textual Information
 - Qualitative 
@@ -14,7 +14,7 @@ eg : machine downtime / production count / temperature readings etc.
 - Used extensively for filtering and grouping joining tables etc. 
 - eg. : Machine Details, manufacturers details, operator information, plant location, product data
 
-###Factory Example
+### Factory Example
   
 #### Fact Table : fact_prod_data : 
   
@@ -30,7 +30,7 @@ How much was downtime?
 Who produced maximum?
  
     
-####Dimension : dim_machines 
+#### Dimension : dim_machines 
   | machine_id | machine_name | plant | type  |
 | ---------- | ------------ | ----- | ----- |
 | M01        | CNC-1        | Pune  | CNC   |
@@ -43,7 +43,7 @@ Questions Answered :
 - What is the expected life expectancy
 - Servicing durations 
 
-####Dimension : dim_products
+#### Dimension : dim_products
   | product_id | product_name | category |
 | ---------- | ------------ | -------- |
 | P100       | Gear         | Auto     |

@@ -20,4 +20,6 @@ Develop SQL based analyitcs to derive insights into :-
 - OEE (Overall Equipment Efficiency)
 - Machine Failure trends
 
+These insights help the stakeholders to take informed decisions on factory operations, and do predictive maintenance thus improving plant efficiency and avoiding opportunity losses due to breakdown.
+
 

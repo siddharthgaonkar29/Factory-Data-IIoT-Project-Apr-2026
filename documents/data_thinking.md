@@ -62,3 +62,7 @@ Questions Answered :
 
 Questions Answered :
 - Specific ID given to a particula date/ particular time/ particular/ shift
+
+### Important : How do they connect with each Other : 
+- Defined by the Data Model Architecture
+- Here we will be using the Star Schema to create a user friendly Data Model for connecting the various tables and facilitating a common source for Business Stakeholders and Analysis teams. 

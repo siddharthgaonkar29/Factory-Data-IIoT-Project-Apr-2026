@@ -77,8 +77,7 @@ Questions Answered :
 #### Star Schema
 Star Schema is a type of data model. where the facts table in the centre and connected to the dimensions table through a foreign key and the primary key of the dimension table. 
 
-<img width="767" height="657" alt="image" src="https://github.com/user-attachments/assets/2e142c14-071e-428e-9d0a-3d0195113218" />
-
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/bc894fad-be2c-46f0-ab2a-b424f1455fb9" />
 
 
 

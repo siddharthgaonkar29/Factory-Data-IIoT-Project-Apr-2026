@@ -1,3 +1,6 @@
+# Data Thinking
+## Learn Fact vs Dimension tables + map factory example :
+
 ### Facts 
 - Event Based
 - Measure Heavy

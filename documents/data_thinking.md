@@ -75,7 +75,7 @@ Questions Answered :
 ### Star Schema + Design Factory Schema :
 
 #### Star Schema
-Star Schema is a type of data model. where the facts table in the centre and connected to the dimensions table through a foreign key and the primary key of the dimension table. 
+Star Schema is a type of data model. where the facts table in the centre and connected to the dimensions table through a foreign key and the primary key of the dimension table / surrogate key in case of reliable joins and slowly changing dimensions
 
 <img width="600" height="467" alt="image" src="https://github.com/user-attachments/assets/07d13013-70a7-4809-96b6-01dd13d1318b" />
 

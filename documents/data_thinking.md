@@ -1,5 +1,5 @@
 # Data Thinking
-## Learn Fact vs Dimension tables + map factory example :
+## Day 1 Learn Fact vs Dimension tables + map factory example :
 
 ### Facts 
 - Event Based
@@ -68,4 +68,28 @@ Questions Answered :
 
 ### Important : How do they connect with each Other : 
 - Defined by the Data Model Architecture
-- Here we will be using the Star Schema to create a user friendly Data Model for connecting the various tables and facilitating a common source for Business Stakeholders and Analysis teams. 
+- Here we will be using the Star Schema to create a user friendly Data Model for connecting the various tables and facilitating a common source for Business Stakeholders and Analysis teams.
+
+## Day 2 : Learn Star Schema + design factory schema
+
+### Star Schema + Design Factory Schema :
+
+#### Star Schema
+Star Schema is a type of data model. where the facts table in the centre and connected to the dimensions table through a foreign key and the primary key of the dimension table. 
+
+<img width="767" height="657" alt="image" src="https://github.com/user-attachments/assets/2e142c14-071e-428e-9d0a-3d0195113218" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

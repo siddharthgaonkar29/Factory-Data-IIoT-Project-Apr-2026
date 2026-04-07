@@ -82,7 +82,7 @@ Star Schema is a type of data model. where the facts table in the centre and con
 
 ## Data WareHouse and Data Lake
 
-<img width="887" height="696" alt="image" src="https://github.com/user-attachments/assets/fd7fdc2b-9fab-4232-bb9a-6432936a57cf" />
+<img width="892" height="687" alt="image" src="https://github.com/user-attachments/assets/5edaeee4-ae9f-4b96-9081-27b897bb1d7b" />
 
 
 ## ETL vs. ELT and Mapping to Factory Data Flow.

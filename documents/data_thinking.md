@@ -1,5 +1,5 @@
 # Data Thinking
-## Day 1 Learn Fact vs Dimension tables + map factory example :
+## Learn Fact vs Dimension tables + map factory example :
 
 ### Facts 
 - Event Based
@@ -70,17 +70,29 @@ Questions Answered :
 - Defined by the Data Model Architecture
 - Here we will be using the Star Schema to create a user friendly Data Model for connecting the various tables and facilitating a common source for Business Stakeholders and Analysis teams.
 
-## Day 2 : Learn Star Schema + design factory schema
-
-### Star Schema + Design Factory Schema :
+## Star Schema + Design Factory Schema :
 
 #### Star Schema
 Star Schema is a type of data model. where the facts table in the centre and connected to the dimensions table through a foreign key and the primary key of the dimension table / surrogate key in case of reliable joins and slowly changing dimensions
 
+#### Factory Schema :
+
 <img width="600" height="467" alt="image" src="https://github.com/user-attachments/assets/07d13013-70a7-4809-96b6-01dd13d1318b" />
 
 
+## Data WareHouse and Data Lake
 
+<img width="887" height="696" alt="image" src="https://github.com/user-attachments/assets/fd7fdc2b-9fab-4232-bb9a-6432936a57cf" />
+
+
+## ETL vs. ELT and Mapping to Factory Data Flow.
+
+### ETL vs. ELT
+
+<img width="877" height="380" alt="image" src="https://github.com/user-attachments/assets/135bba63-09a6-4e5e-b778-82d326ccc261" />
+
+
+### Mappinf Factory Data :-
 
 
 

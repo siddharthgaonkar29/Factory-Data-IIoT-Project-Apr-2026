@@ -101,9 +101,12 @@ Extract >> Transform >> Load
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/8b3538c5-a9a3-4bd2-9c09-5f01b9bdee33" />
 
 
-####  ELT
+####  ELT in your factory modern approach. 
+
 Extract >> Load  >> Transform 
 
+
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/6e26688e-9a3d-4eeb-a899-c6b25bf0cad5" />
 
 
 

@@ -116,6 +116,10 @@ Extract >> Load  >> Transform
 - Need Predictive Maintenance (ML Model)
 - Future Flexibility
 
+### Modern Day FActory data Architecture
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/7d16812b-cafb-47ae-888b-eb113cf5ee08" />
+
+
 
 
 

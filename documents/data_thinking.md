@@ -95,7 +95,7 @@ Star Schema is a type of data model. where the facts table in the centre and con
 
 #### Extract >> Transform >> Load 
 
-<img width="827" height="467" alt="image" src="https://github.com/user-attachments/assets/99085daf-2cb4-431b-956e-6f1d8e43ffb2" />
+<img width="450" height="270" alt="image" src="https://github.com/user-attachments/assets/99085daf-2cb4-431b-956e-6f1d8e43ffb2" />
 
 
 

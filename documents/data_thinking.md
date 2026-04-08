@@ -93,24 +93,24 @@ Star Schema is a type of data model. where the facts table in the centre and con
 
 ### Mapping Factory Data :-
 
-####  ETL
-Extract >> Transform >> Load 
-<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/52e30627-1f36-4e2d-8e35-a7cb3f7399a9" />
+####  ETL in your factory
 
+Extract >> Transform >> Load 
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/52e30627-1f36-4e2d-8e35-a7cb3f7399a9" />
 
 #### When to Use :
 - Small / medium Data
 - Structured Data
 - Final Goal is Data for Reporting / Analytics
-- 
-####  ELT in your factory modern approach. 
 
-Extract >> Load  >> Transform 
+####  ELT in your factory modern approach.
+
+Extract >> Load  >> Transform
 
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/c78f8d69-9fd6-45fd-a854-547e3ba0ce1e" />
 
 #### When to Use :
-
 - IOT Sensor Heavy Data
 - High Data Volume
 - Need Predictive Maintenance (ML Model)

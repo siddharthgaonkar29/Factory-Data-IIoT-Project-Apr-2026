@@ -105,13 +105,7 @@ Extract >> Transform >> Load
 
 Extract >> Load  >> Transform 
 
-
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/6e26688e-9a3d-4eeb-a899-c6b25bf0cad5" />
-
-
-
-
-
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/ee3f50ba-3e7f-4bf0-8d92-5711acdd3c3b" />
 
 
 

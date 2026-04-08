@@ -98,7 +98,11 @@ Extract >> Transform >> Load
 
 <img width="450" height="270" alt="image" src="https://github.com/user-attachments/assets/99085daf-2cb4-431b-956e-6f1d8e43ffb2" />
 
-####  ETL
+Explaination : 
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/8b3538c5-a9a3-4bd2-9c09-5f01b9bdee33" />
+
+
+####  ELT
 Extract >> Load  >> Transform 
 
 

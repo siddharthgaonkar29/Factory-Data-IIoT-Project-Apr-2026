@@ -91,8 +91,14 @@ Star Schema is a type of data model. where the facts table in the centre and con
 
 <img width="877" height="380" alt="image" src="https://github.com/user-attachments/assets/135bba63-09a6-4e5e-b778-82d326ccc261" />
 
+### Mapping Factory Data :-
 
-### Mappinf Factory Data :-
+#### Extract >> Transform >> Load 
+
+<img width="827" height="467" alt="image" src="https://github.com/user-attachments/assets/99085daf-2cb4-431b-956e-6f1d8e43ffb2" />
+
+
+
 
 
 

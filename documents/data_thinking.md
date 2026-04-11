@@ -1,4 +1,4 @@
-<img width="1162" height="362" alt="image" src="https://github.com/user-attachments/assets/791b44f8-64e4-4e6e-baee-ff8cfe27e16f" />## Learn Fact vs Dimension tables + map factory example :
+## Learn Fact vs Dimension tables + map factory example :
 
 ### Facts 
 - Event Based

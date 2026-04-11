@@ -1,4 +1,4 @@
-# Data Thinking
+<img width="694" height="201" alt="image" src="https://github.com/user-attachments/assets/5bcebef3-bd3c-4e16-99b0-47b379bbc8ba" /># Data Thinking
 ## Learn Fact vs Dimension tables + map factory example :
 
 ### Facts 
@@ -128,72 +128,27 @@ Extract >> Load  >> Transform
 - Always in a key-value pair.
 - Keys are always strings : in double quotes
 - Values can be : String, Boolean, integer, array, object, null
-eg :
-{
-  "machine_id" : 0001',
-  "time": "2019-04-12",
-  "product_id" : 10092,
-  "temperature" : 54,
-  "vibration" : 34,
-  "downtime_flag" : False,
-}
+
+<img width="327" height="212" alt="image" src="https://github.com/user-attachments/assets/ac90ac29-2d10-4623-83b6-6425483a6aec" />
+
 Nested JSON Example :-
-{
-"name" : "Rahul",
-"skills" : ["Pyhton", "SQL", "DataStructures"],
-"address" : {
-			"State" : 'Maharashtra',
-  			"city" : "Pune",
-  			"pin_code" : 411022
-  			},
-}
+
+<img width="480" height="223" alt="image" src="https://github.com/user-attachments/assets/5ae0fcbc-678c-4ba6-969f-b0378093e85b" />
+
 
 #### JSON example for s Dataset :
-[
-	{
-	"product_id" : 10922,
-	"qty" : 35,
-	"cat" : 'Grooming',
-	"active_flag" : True
-	},
-	{
-	"product_id" : 20115,
-	"qty" : 5,
-	"cat" : 'Electronics',
-	"active_flag" : True
-	},
-	{
-	"product_id" : 21334,
-	"qty" : 35,
-	"cat" : 'Food',
-	"active_flag" : True
-	}
 
-]
+<img width="275" height="477" alt="image" src="https://github.com/user-attachments/assets/9ac6eb68-e718-48bc-b120-9b9d47a7ae33" />
+
 -- Row Data in a list format.
 
 -- Real World Example API response :
-{
-	"status" : "success",
-	"data" : 
-	{
-		[
-			{
-				"user_id" : 0001, 
-				"order_id" : 00910,
-				"payment_status" : "success"
-			},
-			{
-				"user_id" : 0002, 
-				"order_id" : 09283,
-				"payment_status" : "failed"
-			}
-			
-		]
-	}
-}
 
-#### JSON file saved as file.json
+<img width="371" height="465" alt="image" src="https://github.com/user-attachments/assets/8dd4363d-44c0-4d40-8780-e9f1a387b1ba" />
+
+#### Saving a JSON file
+
+file.json
 
 #### Rules of JSON :
 - Use {} for objects
@@ -202,9 +157,66 @@ Nested JSON Example :-
 - No trailing commas
 - case- sensitive
 
+
+### Advantages of Using JSON for Data Transfer :
+
+#### Lightweight : 
+- No Unecessary tags
+- Less payload
+Benefit : Faster Transfers, Saves Bandwidth
+
+#### Readability : 
+- Human Readable and Easy to debug :
+Benefits : Easy to Understand, Easy to debug
+
+#### Language independent :
+- Pyhton , Java, Javascript, C++, Go
+Benefits : Easier for System to system communication
+
+#### Native Support in Web (Javascript)
+- JSON is directly usable in Javascript
+- Works seamlessly with WEB APIs
+Benefits  : Hence most REST APIs use JSON
+
+#### Supports complex datastructures  :
+- Nested Lists
+- Hierarchical data
+- Arrays
+Benefits : More flexible than file formats like CSV.
+
+#### Parsing and Generate
+- Simple parsing
+- Built in libraries available everywhere
+
+#### Wide Use in APIs : 
+- Web Apps
+- Mobiles Apps
+- APIs
+
+#### Schema Flexibility :
+- Unlike databases , JSON does not follow fixed Schemas.
+- Useful when Datastructures change frequently
+- Fields are optional
+
+#### JSON Best when : 
+- Sending API data
+- Web and mobile apps
+- fast and light weight communication
+- Complex and Nested data.
+
+#### Limitations :
+- Slightly slower than binary formats
+- No built in schema validation
+- Can get messy if deeply nested. 
+
+
 ### PARQUET
 
-Comparison Table :			
+
+### Comparison of JSON / PARQUET / CSV 
+- Table :
+<img width="694" height="201" alt="image" src="https://github.com/user-attachments/assets/18a5de67-765d-4266-8309-e6d4a69c948d" />
+
 
 ## 1 Million Sensor records/day storage design :
 

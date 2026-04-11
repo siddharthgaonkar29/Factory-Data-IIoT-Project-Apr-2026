@@ -120,12 +120,91 @@ Extract >> Load  >> Transform
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/7d16812b-cafb-47ae-888b-eb113cf5ee08" />
 
 ## FILE FORMATS :
-- CSV
-- JSON
-- PARQUET-		
-			
-<img width="321" height="241" alt="image" src="https://github.com/user-attachments/assets/07c127cb-329a-4f4e-bba8-3fa92e55e347" />
+#### CSV :-
+- Simple Human Readable Comma separated files
+- Used when the data volume is low.
+  
+#### JSON :-
+- Always in a key-value pair.
+- Keys are always strings : in double quotes
+- Values can be : String, Boolean, integer, array, object, null
+eg :
+{
+  "machine_id" : 0001',
+  "time": "2019-04-12",
+  "product_id" : 10092,
+  "temperature" : 54,
+  "vibration" : 34,
+  "downtime_flag" : False,
+}
+Nested JSON Example :-
+{
+"name" : "Rahul",
+"skills" : ["Pyhton", "SQL", "DataStructures"],
+"address" : {
+			"State" : 'Maharashtra',
+  			"city" : "Pune",
+  			"pin_code" : 411022
+  			},
+}
 
+#### JSON example for s Dataset :
+[
+	{
+	"product_id" : 10922,
+	"qty" : 35,
+	"cat" : 'Grooming',
+	"active_flag" : True
+	},
+	{
+	"product_id" : 20115,
+	"qty" : 5,
+	"cat" : 'Electronics',
+	"active_flag" : True
+	},
+	{
+	"product_id" : 21334,
+	"qty" : 35,
+	"cat" : 'Food',
+	"active_flag" : True
+	}
+
+]
+-- Row Data in a list format.
+
+-- Real World Example API response :
+{
+	"status" : "success",
+	"data" : 
+	{
+		[
+			{
+				"user_id" : 0001, 
+				"order_id" : 00910,
+				"payment_status" : "success"
+			},
+			{
+				"user_id" : 0002, 
+				"order_id" : 09283,
+				"payment_status" : "failed"
+			}
+			
+		]
+	}
+}
+
+#### JSON file saved as file.json
+
+#### Rules of JSON :
+- Use {} for objects
+- Use [] for list
+- keys must be in double quotes
+- No trailing commas
+- case- sensitive
+
+### PARQUET
+
+Comparison Table :			
 
 ## 1 Million Sensor records/day storage design :
 

@@ -219,7 +219,7 @@ Benefits : More flexible than file formats like CSV.
 
 ### Comparison of JSON / PARQUET / CSV 
 - Table 1 :
-<img width="694" height="201" alt="image" src="https://github.com/user-attachments/assets/18a5de67-765d-4266-8309-e6d4a69c948d" />
+<img width="694" height="362" alt="image" src="https://github.com/user-attachments/assets/18a5de67-765d-4266-8309-e6d4a69c948d" />
 - Table 2 :
 <img width="891" height="362" alt="image" src="https://github.com/user-attachments/assets/d9c370a9-bbe0-47f4-bccf-ed1c19f611af" />
 

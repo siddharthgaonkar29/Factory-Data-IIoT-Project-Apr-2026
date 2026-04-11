@@ -119,8 +119,19 @@ Extract >> Load  >> Transform
 ### Modern Day FActory data Architecture
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/7d16812b-cafb-47ae-888b-eb113cf5ee08" />
 
-## 1 Million Sensor records/day storage design.
+## FILE FORMATS :
+- CSV
+- JSON
+- PARQUET-		
+			
+<img width="321" height="241" alt="image" src="https://github.com/user-attachments/assets/07c127cb-329a-4f4e-bba8-3fa92e55e347" />
 
+
+## 1 Million Sensor records/day storage design :
+
+### Problem Statement : Designing a system that can store 1M sensor records per day. 
+- Assumption : The input will be as a JSON format.
+- 
 
 
 

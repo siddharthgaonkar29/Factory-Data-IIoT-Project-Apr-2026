@@ -1,5 +1,4 @@
-<img width="694" height="201" alt="image" src="https://github.com/user-attachments/assets/5bcebef3-bd3c-4e16-99b0-47b379bbc8ba" /># Data Thinking
-## Learn Fact vs Dimension tables + map factory example :
+<img width="1162" height="362" alt="image" src="https://github.com/user-attachments/assets/791b44f8-64e4-4e6e-baee-ff8cfe27e16f" />## Learn Fact vs Dimension tables + map factory example :
 
 ### Facts 
 - Event Based
@@ -211,12 +210,21 @@ Benefits : More flexible than file formats like CSV.
 
 
 ### PARQUET
-
+- Parquet is a file format where the data is stored in the columnar format
+  
+#### Columnar Data
+- Helps in faster computation
+- Better Compression
+- Less I/O
 
 ### Comparison of JSON / PARQUET / CSV 
-- Table :
+- Table 1 :
 <img width="694" height="201" alt="image" src="https://github.com/user-attachments/assets/18a5de67-765d-4266-8309-e6d4a69c948d" />
+- Table 2 :
+<img width="891" height="350" alt="image" src="https://github.com/user-attachments/assets/d9c370a9-bbe0-47f4-bccf-ed1c19f611af" />
 
+### Factory IIoT File Format Flow : 
+<img width="1162" height="362" alt="image" src="https://github.com/user-attachments/assets/cdd6cc23-1743-4912-aee5-58be17f6bf0e" />
 
 ## 1 Million Sensor records/day storage design :
 

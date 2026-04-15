@@ -252,8 +252,7 @@ Per Year : 200 MB *365 = 73GB/ Year
 #### Time Series DB (Optional) OR Influx DB : For ultra fast real time queries. 
 
 
-Process : Source >> IIOT Gateway >> Streaming >> Storage >> Processing >> Structured Storage >> Serve 
-Use : Sensors >> IoT Gateway >> Kafka >> Raw Data Lake (Partitioned)>> Delta Lake >> Lakehouse/ Warehouse >> BI/ML/Alerts
+### Final Flow : 
 - Source : Sensors
 - IOT Gateway : IIoT Gateway
 - Streaming : Kafka
@@ -261,6 +260,19 @@ Use : Sensors >> IoT Gateway >> Kafka >> Raw Data Lake (Partitioned)>> Delta Lak
 - Processing : Apache Spark
 - Structured Storage : Delta Lake / Data Warehouse
 - Serving : BI/ ML/ Alerts
+
+  ### Follow Up Points :
+
+#### What if scale increases to 100 M per day
+- Use Distributed spark architecture
+- Scale kafka
+- Increase partitions.
+#### How do you handle late data 
+- Update + Inserts
+- Watermarking in Spark
+#### How do you ensure Data quality 
+- Validation Rules
+- Schema Enforcement
 
 
 

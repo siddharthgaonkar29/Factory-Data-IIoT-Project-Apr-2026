@@ -229,23 +229,38 @@ Benefits : More flexible than file formats like CSV.
 ## 1 Million Sensor records/day storage design :
 
 ### Problem Statement : Designing a system that can store 1M sensor records per day. 
+
 - Assumption : The input will be as a JSON format.
+  
 - Each record in JSON will look as below :
-     - {
-       "machine_id" : 101,
-       "time_stamp" : "2026-04-09T10:00:00",
-       temperature : 75.5,
-       vibration : 0.02
-       }
-  This is moderate size data, not yet Big Data
+<img width="250" height="100" alt="image" src="https://github.com/user-attachments/assets/43da878f-35ec-43ef-97df-0f43a950fab6" />
+This is moderate size data, not yet Big Data
+
+### 1M sensor records per data Data Architecture :
+<img width="600" height="225" alt="image" src="https://github.com/user-attachments/assets/7dcd6627-8521-4a7e-8f45-e18c84240d2a" />
+
+### Storage Estimation :
+1 record : 200 B
+Per Day 1M records : 200 MB/day
+Per Year : 200 MB *365 = 73GB/ Year
+ >>> With Parquet compression : 20-30 GB/year : Manageable
+
+### Design Choice justification :
+
+#### Tradition ETL will be easier to configure but will fail to scale for time series data. 
+#### New age ELT will be suitable for scaling and heavy load works. Its cheap and flexible. 
+#### Time Series DB (Optional) OR Influx DB : For ultra fast real time queries. 
 
 
-
-
-
-
-
-
+Process : Source >> IIOT Gateway >> Streaming >> Storage >> Processing >> Structured Storage >> Serve 
+Use : Sensors >> IoT Gateway >> Kafka >> Raw Data Lake (Partitioned)>> Delta Lake >> Lakehouse/ Warehouse >> BI/ML/Alerts
+- Source : Sensors
+- IOT Gateway : IIoT Gateway
+- Streaming : Kafka
+- Storage : Data Lake
+- Processing : Apache Spark
+- Structured Storage : Delta Lake / Data Warehouse
+- Serving : BI/ ML/ Alerts
 
 
 

@@ -230,7 +230,17 @@ Benefits : More flexible than file formats like CSV.
 
 ### Problem Statement : Designing a system that can store 1M sensor records per day. 
 - Assumption : The input will be as a JSON format.
-- 
+- Each record in JSON will look as below :
+     - {
+       "machine_id" : 101,
+       "time_stamp" : "2026-04-09T10:00:00",
+       temperature : 75.5,
+       vibration : 0.02
+       }
+  This is moderate size data, not yet Big Data
+
+
+
 
 
 
